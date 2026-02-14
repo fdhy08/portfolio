@@ -1,0 +1,72 @@
+import { Geist, Geist_Mono } from "next/font/google";
+import "./globals.css";
+import Navbar from "@/components/navbar";
+import SmoothScroll from "@/components/scroll";
+import { Montserrat } from "next/font/google";
+import Footer from "@/components/footer";
+import ParticlesBackground from "@/components/particles";
+
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  weight: ["400", "600", "700"],
+});
+
+const geistSans = Geist({
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
+});
+
+const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
+  subsets: ["latin"],
+});
+
+export const metadata = {
+  title: "Felicia Ding Hui Yin",
+  description: "Portfolio website for Felicia Ding Hui Yin",
+};
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      <head>
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+        />
+      </head>
+
+      <body
+        className={`
+          relative min-h-screen 
+          bg-[#081a33] 
+          ${geistSans.variable} 
+          ${geistMono.variable} 
+          antialiased 
+          ${montserrat.className}
+        `}
+      >
+        <SmoothScroll>
+          {/* WRAPPER UTAMA */}
+          <div className="relative min-h-screen overflow-hidden">
+
+            {/* BACKGROUND */}
+            <ParticlesBackground />
+
+            {/* CONTENT */}
+            <div className="relative z-10 bg-[#0b2344]/35 min-h-screen flex flex-col">
+              <Navbar />
+
+              <main className="flex-1 max-w-8xl mx-4 sm:mx-8 md:mx-12 lg:mx-64 mt-16 md:mt-24 lg:mt-32 mb-8 md:mb-12 lg:mb-16">
+                {children}
+              </main>
+
+              <Footer />
+            </div>
+
+          </div>
+        </SmoothScroll>
+      </body>
+    </html>
+  );
+}
