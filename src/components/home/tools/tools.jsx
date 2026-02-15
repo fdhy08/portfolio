@@ -2,10 +2,10 @@ export default function Tools() {
   const tools = [
     { name: "Windows", icon: "devicon-windows11-original colored" },
     { name: "Vs Code", icon: "devicon-vscode-plain colored" },
-    { name: "Android Studio", icon: "devicon-androidstudio-plain colored" },
     { name: "Chrome", icon: "devicon-chrome-plain" },
-    { name: "Postman", icon: "devicon-postman-plain colored" },
     { name: "Git", icon: "devicon-git-plain colored" },
+    { name: "GitHub", icon: "devicon-github-original" },
+    { name: "Power BI", icon: "devicon-powerbi-plain colored" },
   ]
 
   return (

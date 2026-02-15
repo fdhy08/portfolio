@@ -21,8 +21,6 @@ export default function Hero() {
                 1500,
                 "Junior Web Developer",
                 1500,
-                "Android Enthusiast",
-                1500,
               ]}
               speed={60}
               repeat={Infinity}

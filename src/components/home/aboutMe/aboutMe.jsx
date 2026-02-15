@@ -20,8 +20,8 @@ export default function AboutMe () {
                 </div>
                 {/* TEXT */}
                 <div className="text-justify text-sm md:text-md lg:text-xl basis-2/3">
-                    <p>I&apos;m a Business and Financial Technology student at Nanyang Polytechnic with a strong interest in software development. I enjoy building intuitive and reliable user experiences across platforms, with a focus on clean architecture and maintainable code.</p>
-                    <p className="pt-2">Beyond technical skills, I value leadership and collaboration. My experience as a chairman of a student organization has shaped the way I approach teamwork, communication, and problem-solving.</p>
+                    <p>I&apos;m a Business and Financial Technology student at Nanyang Polytechnic with a strong interest in software development with a nack for business. I enjoy building user centered designs across platforms, with a focus on clean architecture and entreprenurship.</p>
+                    <p className="pt-2">Beyond technical skills, I value collaboration and leadership. My experience during projects allowed me to refine my communication and my ability to lead a team.</p>
                 </div>
             </div>
         </div>

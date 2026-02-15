@@ -1,16 +1,12 @@
 export default function Skills() {
   const skills = [
-    { name: "Python", icon: "devicon-kotlin-plain colored" },
-    { name: "Flask", icon: "devicon-jetpackcompose-plain colored" },
-    { name: "Flutter", icon: "devicon-flutter-plain colored" },
-    { name: "Dart", icon: "devicon-dart-plain colored" },
+    { name: "Python", icon: "devicon-python-plain colored" },
+    { name: "Flask", icon: "devicon-flask-original colored" },
     { name: "Javascript", icon: "devicon-javascript-plain colored" },
+    { name: "HTML", icon: "devicon-html5-plain colored" },
+    { name: "CSS", icon: "devicon-css3-plain colored" },
     { name: "React.Js", icon: "devicon-react-original colored" },
-    { name: "Next.Js", icon: "devicon-nextjs-plain" },
-    { name: "Express.Js", icon: "devicon-express-original" },
-    { name: "Node.Js", icon: "devicon-nodejs-plain colored" },
     { name: "MySQL", icon: "devicon-mysql-plain colored" },
-    { name: "Tailwind CSS", icon: "devicon-tailwindcss-original colored" },
     
   ]
 
