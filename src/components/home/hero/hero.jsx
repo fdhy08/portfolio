@@ -17,7 +17,9 @@ export default function Hero() {
           <div className="relative h-8">
             <TypeAnimation
               sequence={[
-                "Fintech Student",
+                "FinTech Student",
+                1500,
+                "Business Enthusiast",
                 1500,
                 "Junior Web Developer",
                 1500,

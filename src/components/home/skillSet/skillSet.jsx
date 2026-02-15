@@ -5,7 +5,7 @@ export default function Skills() {
     { name: "Javascript", icon: "devicon-javascript-plain colored" },
     { name: "HTML", icon: "devicon-html5-plain colored" },
     { name: "CSS", icon: "devicon-css3-plain colored" },
-    { name: "React.Js", icon: "devicon-react-original colored" },
+    { name: "Bootstrap", icon: "devicon-bootstrap-plain colored" },
     { name: "MySQL", icon: "devicon-mysql-plain colored" },
     
   ]

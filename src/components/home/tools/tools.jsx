@@ -6,6 +6,9 @@ export default function Tools() {
     { name: "Git", icon: "devicon-git-plain colored" },
     { name: "GitHub", icon: "devicon-github-original" },
     { name: "Power BI", icon: "devicon-powerbi-plain colored" },
+    { name: "Oracle APEX", icon: "devicon-oracle-original colored" },
+    { name: "Canva", icon: "devicon-canva-original colored" },
+    { name: "Figma", icon: "devicon-figma-plain colored" },
   ]
 
   return (
