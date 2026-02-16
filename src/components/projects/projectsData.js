@@ -9,7 +9,7 @@ export const projects = [
       { name: "Flask", icon: "devicon-flask-original colored" },
       { name: "GitHub", icon: "devicon-github-original" },
     ],
-    image: "/projects/InfiniteTrack.jpg",
+    image: "/projects/BuildAKampung.png",
     github: "",
     link: "https://exhibition-infinite-learning.super.site/1624fb0d7d0a8061a9a6cf20feb151b6",
   },

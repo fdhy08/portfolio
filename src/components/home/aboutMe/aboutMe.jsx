@@ -10,7 +10,7 @@ export default function AboutMe () {
                 {/* IMAGE */}
                 <div className="basis-1/3 flex justify-center lg:justify-start">
                 <Image
-                    src="/roundedRaja.png"
+                    src="/about-felicia.jpg"
                     alt="Felicia Ding Hui Yin"
                     width={300}
                     height={300}
