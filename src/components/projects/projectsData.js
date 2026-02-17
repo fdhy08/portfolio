@@ -10,9 +10,10 @@ export const projects = [
       { name: "GitHub", icon: "devicon-github-original" },
     ],
     image: "/projects/BuildAKampungScreenshot.png",
-    imageFit: "contain",
+    imageFit: "cover",
+    imagePosition: "object-center",
     github: "",
-    link: "https://exhibition-infinite-learning.super.site/1624fb0d7d0a8061a9a6cf20feb151b6",
+    link: "",
   },
   {
     title: "Portfolio Website",
