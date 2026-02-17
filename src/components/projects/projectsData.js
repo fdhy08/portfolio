@@ -4,6 +4,8 @@ export const projects = [
     description:
       "Due to the increased usage of technology across the world, interactions between youths and seniors have decreased significantly. As such, Build A Kampung is a gamified website that aims to foster meaningful relationships between generations alike. Build A Kampung features segregated topic kampungs that allow those who have similar interests to mingle through uploading and scrolling respective kampung feeds and even participate in monthly events held all around Singapore!",
     tech: [
+      { name: "HTML", icon: "devicon-html5-plain colored" },
+      { name: "CSS", icon: "devicon-css3-plain colored" },
       { name: "Python", icon: "devicon-python-plain colored" },
       { name: "Javascript", icon: "devicon-javascript-plain colored" },
       { name: "Flask", icon: "devicon-flask-original colored" },
