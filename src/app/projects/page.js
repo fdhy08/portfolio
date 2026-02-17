@@ -17,7 +17,7 @@ export default function Projects() {
         </p>
       </div>
 
-      <div className="mx-auto flex max-w-5xl justify-center px-6">
+      <div className="mx-auto flex max-w-5xl flex-col items-center gap-6 px-6">
         {featuredProject && (
           <ProjectCard
             project={featuredProject}
@@ -25,6 +25,10 @@ export default function Projects() {
             className="w-full max-w-4xl"
           />
         )}
+
+        <div className="w-full max-w-4xl overflow-hidden rounded-2xl border-2 border-[#D4AF37] bg-white/5 px-6 py-14 text-center text-2xl font-semibold text-[#E9D48A] backdrop-blur shadow-md shadow-[#D4AF37]/20">
+          More to come!
+        </div>
       </div>
     </section>
   )

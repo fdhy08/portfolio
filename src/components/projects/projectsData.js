@@ -11,7 +11,7 @@ export const projects = [
       { name: "Flask", icon: "devicon-flask-original colored" },
       { name: "GitHub", icon: "devicon-github-original" },
     ],
-    image: "/projects/BAK.png",
+    image: "/projects/BuildAKampungScreenshot.png",
     imageFit: "cover",
     imagePosition: "object-center",
     github: "",
