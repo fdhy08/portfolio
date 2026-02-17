@@ -3,6 +3,8 @@ import { FaLink } from "react-icons/fa"
 
 export default function ProjectCard({ project, layout = "vertical", className = "" }) {
   const isHorizontal = layout === "horizontal"
+  const imageFitClass = project.imageFit === "contain" ? "object-contain p-2" : "object-cover"
+  const imageWrapperClass = project.imageFit === "contain" ? "bg-zinc-900/60" : ""
 
   return (
     <div
@@ -14,7 +16,7 @@ export default function ProjectCard({ project, layout = "vertical", className = 
         <div
           className={
             isHorizontal
-              ? "relative w-full overflow-hidden aspect-[16/10] md:w-5/12 md:aspect-[4/3]"
+              ? `relative w-full overflow-hidden aspect-[16/10] md:w-5/12 md:aspect-[16/10] ${imageWrapperClass}`
               : "relative h-48 overflow-hidden"
           }
         >
@@ -22,7 +24,7 @@ export default function ProjectCard({ project, layout = "vertical", className = 
             src={project.image}
             alt={project.title}
             fill
-            className="object-cover transition duration-500 group-hover:scale-105"
+            className={`${imageFitClass} transition duration-500 group-hover:scale-105`}
           />
         </div>
 
