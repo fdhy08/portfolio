@@ -26,8 +26,10 @@ export default function Projects() {
           />
         )}
 
-        <div className="w-full max-w-4xl overflow-hidden rounded-2xl border-2 border-[#D4AF37] bg-white/5 px-6 py-14 text-center text-2xl font-semibold text-[#E9D48A] backdrop-blur shadow-md shadow-[#D4AF37]/20">
-          More to come!
+        <div className="flex w-full max-w-4xl justify-center">
+          <div className="inline-flex items-center rounded-full border-2 border-[#D4AF37] bg-[#081a33] px-10 py-4 text-2xl font-medium tracking-wide text-[#F4E8B2] shadow-[0_0_24px_rgba(212,175,55,0.25)] transition duration-300 hover:-translate-y-0.5 hover:shadow-[0_0_30px_rgba(212,175,55,0.45)]">
+            More coming soon!
+          </div>
         </div>
       </div>
     </section>
